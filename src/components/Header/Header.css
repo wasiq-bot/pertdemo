@@ -1,0 +1,270 @@
+
+.header-1{
+    margin-left:10px;
+    margin-right: 10px;
+    height: 600px;
+    
+
+}
+.header-1-1{
+    margin-left: 60px;
+    margin-right: 400px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.header-1-2{
+    position: relative;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+
+    
+}
+.header-sentence{
+    font-family: roboto;
+    font-size: 55px;
+    background-image: linear-gradient(to right, rgb(255, 48, 255), orange);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    text-wrap:wrap;
+    line-height:80px;
+   
+    
+     
+}
+.profile-picture{
+    width: 900px;
+    position: absolute;
+    top: 0;
+    right: -100px;
+    z-index: -100;
+    opacity: 0.4;
+   
+}
+.passage{
+    
+    font-family: roboto;
+    font-size: 18px;
+    color: rgb(255, 38, 226);
+    text-justify:initial
+
+}
+.input-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-email input{
+    background-color:rgba(230, 40, 207, 0.453);
+    width: 200px;
+    height: 40px;
+    border: transparent;
+    outline: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family:roboto;
+
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.379);
+    
+    font-family: roboto;
+    font-size: 14px;
+}
+.input-email button{
+    
+    background-color:rgb(234, 127, 34);
+    width: 100px;
+    height: 40px;
+    border: transparent;
+    outline: none;
+    font-size: 14px;
+    border-top-right-radius:3px ;
+    border-bottom-right-radius:3px ;
+
+}
+.users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.users img{
+    margin-top: 10px;
+    margin-left: -4px;
+    width: 250px;
+    opacity: 0.8;
+    z-index: -1;
+}
+.users span{
+   margin-top: 10px;
+   font-family: roboto;
+   font-size: 14px;
+}
+.social-media-dive img{
+    width: 30px;
+   margin-right: 20px;
+    margin-top:60px;
+    cursor: pointer;
+}
+.social-media-dive img:hover{
+   transform: scale(1.1);
+}
+@media screen and (max-width: 1319px){
+    .welcome-messege{
+        display: none;
+    }
+    .social-media-dive img{
+        width: 30px;
+       margin-right: 20px;
+        margin-top:5px;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 1050px){
+    .header-1-1{
+        margin-top: 20px;
+        margin-right: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ .header-1-2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    align-items: center;
+
+    
+   }
+   .header-sentence{
+    font-family: roboto;
+    background-image: linear-gradient(to right, rgb(255, 48, 255), orange);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    text-wrap:wrap;
+    line-height:60px;
+    text-align: center;
+     
+    }
+   .passage{
+    font-family: roboto;
+    margin-top: 20px;
+    color: rgb(0, 157, 255);
+    text-align: center;
+   
+
+   }
+   .profile-picture{
+    width: 900px;
+    position: absolute;
+    top: 0;
+    right: -30%;
+    z-index: -100;
+    opacity: 0.4;
+   
+}
+
+}
+
+@media screen and (max-width: 650px){
+    .header-1-1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .header-1-2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    
+ }
+ .header-sentence{
+    font-family: roboto;
+    background-image: linear-gradient(to right, rgb(255, 48, 255), orange);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    text-wrap:wrap;
+    line-height: 30px;
+    font-size: 30px;
+     
+ }
+  .users{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .passage{
+    font-family: roboto;
+    margin-top: 20px;
+    color: rgb(0, 157, 255);
+    text-align: center;
+    font-size: 12px;
+   
+
+}
+.header-sentence{
+    font-family: roboto;
+    background-image: linear-gradient(to right, rgb(255, 48, 255), orange);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    text-wrap:wrap;
+    line-height: 40px;
+    text-align: center;
+   
+
+    
+     
+  }
+  .social-media-dive img{
+    width: 25px;
+   margin-right: 20px;
+    margin-top:60px;
+    cursor: pointer;
+  }
+  .input-email input{
+    background-color:rgba(230, 40, 207, 0.453);
+    width: 150px;
+    height: 30px;
+    border: transparent;
+    outline: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 12px;
+    font-family:roboto;
+
+}
+.input-email button{
+    
+    background-color:rgb(234, 127, 34);
+    width: 100px;
+    height: 30px;
+    border: transparent;
+    outline: none;
+    font-size: 12px;
+    border-top-right-radius:3px ;
+    border-bottom-right-radius:3px ;
+
+}
+}

@@ -1,0 +1,15 @@
+
+body{
+    
+    font-family: roboto;
+    color: rgb(255, 255, 255);
+    margin:0;
+    overflow-x: hidden;
+    background: rgba(41, 41, 41, 0.271);
+    background: linear-gradient(270deg, rgba(41,41,41,0.6531862745098039) 0%, rgba(0,0,0,0.8996848739495799) 60%), url(./public/back-2.jpg);
+    
+}
+a{
+    color: unset;
+    text-decoration: none;
+}

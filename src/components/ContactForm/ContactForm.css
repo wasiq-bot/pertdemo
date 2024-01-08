@@ -1,0 +1,167 @@
+.contact-form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    margin: 50px 60px 40px 60px;
+    border: transparent;
+    background: rgba(226, 222, 222, 0.056);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 0.5px solid rgba(255, 255, 255, 0.168);
+}
+.contact-paragraph{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-bottom: 80px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+form div input{
+    background-color: rgba(168, 174, 172, 0.137);
+    border: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    margin-bottom:10px ;
+    padding: 5px 100px;
+    outline-color: rgb(225, 117, 54);
+    outline: none;
+
+   
+
+}
+form div textarea{
+    background-color: rgba(168, 174, 172, 0.137);
+    border: transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    margin-bottom:10px ;
+    padding: 5px 5px;
+  
+
+   
+
+}
+.submit-button{
+    padding: 10px 10px;
+    border: transparent;
+    background: rgba(43, 39, 39, 0.588);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    color: rgb(225, 117, 54);
+    cursor: pointer;
+
+}
+@media screen and (max-width: 1050px){
+    .contact-form{
+        padding: 5px 5px;
+        margin: 20px 30px 20px 30px;
+        border: transparent;
+        background: rgba(226, 222, 222, 0.056);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 0.5px solid rgba(255, 255, 255, 0.168);
+    }
+    .contact-paragraph{
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        margin-bottom: 80px;
+        
+    }
+
+    form div textarea{
+        background-color: rgba(168, 174, 172, 0.137);
+        border: transparent;
+        border-radius: 5px;
+        font-size: 14px;
+        color: white;
+        margin-bottom:10px ;
+        padding: 5px 5px;
+      
+    
+       
+    
+    }
+    .submit-button{
+        padding: 8px 8px;
+        border: transparent;
+        background: rgba(43, 39, 39, 0.588);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 0.5px solid rgba(255, 255, 255, 0.3);
+        color: rgb(225, 117, 54);
+        cursor: pointer;
+    
+    }
+   
+
+}
+@media screen and (max-width: 650px){
+    
+    .contact-form{
+        padding: 3px 3px;
+        margin: 10px 15px 10px 15px;
+        border: transparent;
+        background: rgba(226, 222, 222, 0.056);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 0.5px solid rgba(255, 255, 255, 0.168);
+    }
+    .contact-paragraph{
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        margin-bottom: 80px;
+        
+    }
+
+    form div textarea{
+        background-color: rgba(168, 174, 172, 0.137);
+        border: transparent;
+        border-radius: 5px;
+        font-size: 12px;
+        color: white;
+        margin-bottom:10px ;
+        padding: 5px 5px;
+      
+    
+       
+    
+    }
+    .submit-button{
+        padding: 4px 4px;
+        border: transparent;
+        background: rgba(43, 39, 39, 0.588);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 0.5px solid rgba(255, 255, 255, 0.3);
+        color: rgb(225, 117, 54);
+        cursor: pointer;
+    
+    }
+
+}
